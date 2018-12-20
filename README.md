@@ -1,6 +1,8 @@
 # Bio-Context: Experimental Code Repository
 This repository servers as a container for all of the scripts and utility code required to replicate the results found and published as part of our paper that was accepted to the DMBIH '18 workshop. The following sections denote all of the prerequisites required to run our code and the functionality of our scripts that are all included under the `scripts/` directory. This repository has a sister repositories named `BioContext_results` that houses large JSON files that include our per-classifier feature set results that are used to generate the results shown in our paper. Please consider cloning and using these results if you do not have access to the HPC resources necessary to replicate the exhaustive search we used to find the optimal feature sets.
 
+The homepage for our BioContext work can be found [here](https://ml4ai.github.io/BioContext/)
+
 ### Prerequisites
 - Unzip the file located at `data/features.csv.zip`; this is the features data that is needed to run nearly all of our scripts used in this repository
 - Set the two absolute paths required in `config.json`
